@@ -1,0 +1,16 @@
+{
+  "name": "mcp-servers",
+  "image": "mcr.microsoft.com/devcontainers/base:debian12",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Anthropic.claude-code",
+        "ms-azuretools.vscode-containers"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/bendwyer/devcontainer-features/claude-code:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  }
+}
