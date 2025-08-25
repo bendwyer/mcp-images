@@ -8,4 +8,4 @@ RUN apk add --no-cache curl jq tar && \
 FROM gcr.io/distroless/static-debian12
 COPY --from=build /usr/local/bin/flux-operator-mcp /usr/local/bin/flux-operator-mcp
 ENTRYPOINT ["flux-operator-mcp"]
-CMD ["--help"]
+CMD ["serve"]
