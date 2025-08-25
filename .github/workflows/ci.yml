@@ -1,0 +1,16 @@
+---
+name: ci
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "images/**/Dockerfile"
+  push:
+    branches:
+      - main
+
+jobs:
+  ci:
+    uses: bendwyer/github-workflows/.github/workflows/container-build-push.yml@main

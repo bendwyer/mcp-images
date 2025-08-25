@@ -1,0 +1,5 @@
+---
+context7: ./**/context7/**
+flux: ./**/flux/**
+github: ./**/github/**
+terraform: ./**/terraform/**
