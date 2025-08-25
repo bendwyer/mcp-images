@@ -1,4 +1,4 @@
 MCP Images
 ==========
 
-This repository contains various containerized MCPs.
+This repository contains various containerized MCP images.
