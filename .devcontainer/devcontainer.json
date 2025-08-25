@@ -5,6 +5,8 @@
     "vscode": {
       "extensions": [
         "Anthropic.claude-code",
+        "GitHub.vscode-github-actions",
+        "GitHub.vscode-pull-request-github",
         "ms-azuretools.vscode-containers"
       ]
     }
