@@ -2,6 +2,6 @@
 version: 2
 updates:
   - package-ecosystem: docker
-    directory: /images
+    directories: /images/**
     schedule:
       interval: weekly
