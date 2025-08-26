@@ -18,7 +18,7 @@ Claude
         "run",
         "-i",
         "--rm",
-        "ghcr.io/bendwyer/mcp-images:terraform"
+        "ghcr.io/bendwyer/mcp-images/terraform:0"
       ]
     }
   }

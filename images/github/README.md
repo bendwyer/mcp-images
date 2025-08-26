@@ -19,7 +19,7 @@ Claude
         "-i",
         "--rm",
         "-e", "GITHUB_PERSONAL_ACCESS_TOKEN",
-        "ghcr.io/bendwyer/mcp-images:github"
+        "ghcr.io/bendwyer/mcp-images/github:0"
       ],
       "env": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
