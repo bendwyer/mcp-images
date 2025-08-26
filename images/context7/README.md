@@ -1,9 +1,10 @@
 Context7 MCP Server
 ===================
 
-[GitHub / Docs](https://github.com/upstash/context7)
+[GitHub / Docs](https://github.com/upstash/context7)\
+[npm](https://www.npmjs.com/package/@upstash/context7-mcp)
 
-I was not able to find a container provided by context7.
+I was not able to find an official container for context7.
 
 Claude
 ------
@@ -18,11 +19,10 @@ Claude
         "run",
         "-i",
         "--rm",
-        "ghcr.io/bendwyer/mcp-images:context7"
-      ],
-      "headers": {
-        "CONTEXT7_API_KEY": "${CONTEXT7_API_KEY:-''}"
-      }
+        "ghcr.io/bendwyer/mcp-images/context7:1",
+        "--api-key",
+        "${CONTEXT7_API_KEY:-''}"
+      ]
     }
   }
 }
