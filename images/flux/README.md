@@ -22,7 +22,7 @@ Claude
         "--init",
         "-v", "/path/to/.kube:/root/.kube:ro",
         "-e", "KUBECONFIG=/root/.kube/config",        
-        "ghcr.io/bendwyer/mcp-images:flux"
+        "ghcr.io/bendwyer/mcp-images/flux:0"
       ]
     }
   }
