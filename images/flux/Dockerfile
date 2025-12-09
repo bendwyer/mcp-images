@@ -1,4 +1,4 @@
-FROM alpine:3.22 AS build
+FROM alpine:3.23 AS build
 
 RUN apk add --no-cache curl jq tar && \
   ARCH=$(uname -m | sed 's/x86_64/amd64/; s/aarch64/arm64/') && \
