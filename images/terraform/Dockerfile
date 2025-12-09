@@ -1,6 +1,6 @@
 # https://releases.hashicorp.com/terraform-mcp-server/0.2.3/terraform-mcp-server_0.2.3_linux_arm64.zip
 
-FROM alpine:3.22 AS build
+FROM alpine:3.23 AS build
 
 RUN apk add --no-cache curl jq unzip && \
   ARCH=$(uname -m | sed 's/x86_64/amd64/; s/aarch64/arm64/') && \
